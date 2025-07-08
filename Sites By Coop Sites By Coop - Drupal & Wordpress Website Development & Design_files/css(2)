@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Pontano Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://web.archive.org/web/20241006224706im_/https://fonts.gstatic.com/s/pontanosans/v17/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOXLMrcGGow.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Pontano Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://web.archive.org/web/20241006224706im_/https://fonts.gstatic.com/s/pontanosans/v17/qFdW35GdgYR8EzR6oBLDHa3wyRf8W8eBM6XLOZXLrcGGow.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 22:47:06 Oct 06, 2024 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:59:17 Jul 08, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.646
+  exclusion.robots: 0.022
+  exclusion.robots.policy: 0.01
+  esindex: 0.011
+  cdx.remote: 39.778
+  LoadShardBlock: 161.738 (3)
+  PetaboxLoader3.datanode: 257.813 (4)
+  load_resource: 628.999
+  PetaboxLoader3.resolve: 469.801
+*/

@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Pontano Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://web.archive.org/web/20220221234509im_/https://fonts.gstatic.com/s/pontanosans/v11/qFdD35GdgYR8EzR6oBLDHa3axT8I.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 23:45:09 Feb 21, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:00:22 Jul 08, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.561
+  exclusion.robots: 0.025
+  exclusion.robots.policy: 0.014
+  esindex: 0.009
+  cdx.remote: 15.601
+  LoadShardBlock: 138.612 (3)
+  PetaboxLoader3.datanode: 158.141 (5)
+  load_resource: 657.681 (2)
+  PetaboxLoader3.resolve: 345.435 (2)
+*/

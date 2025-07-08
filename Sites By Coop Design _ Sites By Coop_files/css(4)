@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://web.archive.org/web/20211020174043im_/http://fonts.gstatic.com/s/oswald/v40/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiYA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://web.archive.org/web/20211020174043im_/http://fonts.gstatic.com/s/oswald/v40/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZosUZiYA.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 17:40:43 Oct 20, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:00:43 Jul 08, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.481
+  exclusion.robots: 0.014
+  exclusion.robots.policy: 0.006
+  esindex: 0.009
+  cdx.remote: 9.88
+  LoadShardBlock: 74.031 (3)
+  PetaboxLoader3.datanode: 87.945 (4)
+  load_resource: 145.971
+  PetaboxLoader3.resolve: 104.515
+*/

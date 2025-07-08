@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://web.archive.org/web/20211010023255im_/http://fonts.gstatic.com/s/droidserif/v13/tDbI2oqRg1oM3QBjjcaDkOr9rAA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Serif';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://web.archive.org/web/20211010023255im_/http://fonts.gstatic.com/s/droidserif/v13/tDbV2oqRg1oM3QBjjcaDkOJGiRD7OwQ.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 02:32:55 Oct 10, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:01:16 Jul 08, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.538
+  exclusion.robots: 0.015
+  exclusion.robots.policy: 0.008
+  esindex: 0.012
+  cdx.remote: 10.06
+  LoadShardBlock: 182.341 (6)
+  PetaboxLoader3.datanode: 228.737 (7)
+  load_resource: 138.002
+  PetaboxLoader3.resolve: 69.614
+*/

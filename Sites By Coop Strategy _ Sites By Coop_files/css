@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://web.archive.org/web/20211010014856im_/https://fonts.gstatic.com/s/ptsans/v12/jizaRExUiTo99u79D0KEwA.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 01:48:56 Oct 10, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:01:16 Jul 08, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.624
+  exclusion.robots: 0.019
+  exclusion.robots.policy: 0.008
+  esindex: 0.01
+  cdx.remote: 9.668
+  LoadShardBlock: 145.307 (6)
+  PetaboxLoader3.datanode: 149.852 (7)
+  load_resource: 206.23
+  PetaboxLoader3.resolve: 147.239
+*/

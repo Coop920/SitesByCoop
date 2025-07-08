@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://web.archive.org/web/20211020205331im_/https://fonts.gstatic.com/s/ptsans/v12/jizYRExUiTo99u79D0e0x8mN.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://web.archive.org/web/20211020205331im_/https://fonts.gstatic.com/s/ptsans/v12/jizdRExUiTo99u79D0e8fOydLxUY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://web.archive.org/web/20211020205331im_/https://fonts.gstatic.com/s/ptsans/v12/jizaRExUiTo99u79D0KEwA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://web.archive.org/web/20211020205331im_/https://fonts.gstatic.com/s/ptsans/v12/jizfRExUiTo99u79B_mh0O6tKA.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 20:53:31 Oct 20, 2021 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:00:43 Jul 08, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.706
+  exclusion.robots: 0.02
+  exclusion.robots.policy: 0.009
+  esindex: 0.012
+  cdx.remote: 6.25
+  LoadShardBlock: 125.902 (6)
+  PetaboxLoader3.datanode: 142.836 (8)
+  load_resource: 415.174 (2)
+  PetaboxLoader3.resolve: 336.657 (2)
+*/

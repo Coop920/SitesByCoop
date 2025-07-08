@@ -1,0 +1,133 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+/* WP Mailto Links */
+/*global jQuery, window*/
+jQuery(function ($) {
+
+    'use strict';
+
+    // encoding method
+    function rot13(s) {
+        // source: http://jsfromhell.com/string/rot13
+        return s.replace(/[a-zA-Z]/g, function (c) {
+            return String.fromCharCode((c <= 'Z' ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+        });
+    }
+
+    // fetch email from data attribute
+    function fetchEmail(el) {
+        var email = el.getAttribute('data-enc-email');
+
+        if (!email) {
+            return null;
+        }
+
+        // replace [at] sign
+        email = email.replace(/\[at\]/g, '@');
+
+        // encode
+        email = rot13(email);
+
+        return email;
+    }
+
+    // replace email in title attribute
+    function parseTitle(el) {
+        var title = el.getAttribute('title');
+        var email = fetchEmail(el);
+
+        if (title && email) {
+            title = title.replace('{{email}}', email);
+            el.setAttribute('title', title);
+        }
+    }
+
+    // set input value attribute
+    function setInputValue(el) {
+        var email = fetchEmail(el);
+
+        if (email) {
+            el.setAttribute('value', email);
+        }
+    }
+
+    // open mailto link
+    function mailto(el) {
+        var email = fetchEmail(el);
+
+        if (email) {
+            window.location.href = 'mailto:' + email;
+        }
+    }
+    
+    // revert
+    function revert(el, rtl) {
+        var email = fetchEmail(el);
+
+        if (email) {
+           rtl.text(email);
+           rtl.removeClass('wpml-rtl');
+        }
+    }
+
+    // prepare for copying email
+    document.addEventListener('copy', function(e){
+        $('a[data-enc-email]').each(function () {
+            var rtl = $(this).find('.wpml-rtl');
+
+            if (rtl.text()) {
+                revert(this, rtl);
+            }
+        });
+        console.log('copy');
+    });
+
+    // set mailto click
+    $('body').on('click', 'a[data-enc-email]', function () {
+        mailto(this);
+    });
+
+    // parse title attirbute
+    $('a[data-enc-email]').each(function () {
+        parseTitle(this);
+    });
+
+    // parse input fields
+    $('input[data-enc-email]').each(function () {
+        setInputValue(this);
+    });
+
+});
+
+
+}
+/*
+     FILE ARCHIVED ON 00:25:52 Feb 08, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:59:48 Jul 08, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.877
+  exclusion.robots: 0.031
+  exclusion.robots.policy: 0.015
+  esindex: 0.015
+  cdx.remote: 13.844
+  LoadShardBlock: 49.247 (3)
+  PetaboxLoader3.datanode: 59.397 (4)
+  load_resource: 81.041
+  PetaboxLoader3.resolve: 41.925
+*/
